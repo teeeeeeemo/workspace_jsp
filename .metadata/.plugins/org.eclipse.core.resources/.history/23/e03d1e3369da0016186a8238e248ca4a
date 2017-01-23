@@ -1,0 +1,17 @@
+package filter;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+
+public class XSLTFilter implements Filter {
+	
+	private String xslPath = null;
+	
+	@Override
+	public void init(FilterConfig config) throws ServletException {
+		xslPath = config.getServletContext().getRealPath("/WEB-INF/xsl/book.xsl");
+	}
+	
+
+}

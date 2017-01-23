@@ -1,0 +1,14 @@
+package guestbook.service;
+
+public class GetMessageListService {
+	private static GetMessageListService instance = new GetMessageListService();
+	
+	public static GetMessageListService getInstance() {
+		return instance;
+	}
+	
+	private GetMessageListService() {
+	}
+	
+	private static final int MESSAGE_COUNT_PER_PAGE = 3;
+}

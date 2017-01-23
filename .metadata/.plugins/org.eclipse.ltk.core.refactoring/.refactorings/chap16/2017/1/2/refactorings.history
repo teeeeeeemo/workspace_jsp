@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;removeHtml.tag&apos; to &apos;tags&apos;&#x0A;- Original project: &apos;chap16&apos;&#x0A;- Destination element: &apos;tags&apos;&#x0A;- Original element: &apos;removeHtml.tag&apos;" description="Copy file" element1="WebContent/WEB-INF/tags/removeHtml.tag" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1484369380405" target="/chap16/WebContent/WEB-INF/tags" units="0" version="1.0"/>
+</session>

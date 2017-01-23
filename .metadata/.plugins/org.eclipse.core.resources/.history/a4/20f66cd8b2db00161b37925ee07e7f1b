@@ -1,0 +1,8 @@
+package member.command;
+
+import mvc.command.CommandHandler;
+
+public class ChangePasswordHandler implements CommandHandler{
+	private static final String FORM_VIEW = "/WEB-INF/view/changePwdForm.jsp";
+
+}

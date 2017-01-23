@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+try{
+  // 인트로에서 메인 이동
+  var introWrapBurIndex = 0;
+  setTimeout(function(){
+   var introWrapBur = setInterval(function(){
+    introWrapBurIndex = introWrapBurIndex+1;
+     
+    if(introWrapBurIndex < 14){
+     $("#introWrap").css("filter","blur("+introWrapBurIndex+"px)");
+     $("#introWrap").css("-ms-filter","blur("+introWrapBurIndex+"px)");
+     $("#introWrap").css("-moz-filter","blur("+introWrapBurIndex+"px)");
+     $("#introWrap").css("-webkit-filter","blur("+introWrapBurIndex+"px)");
+    } else if(introWrapBurIndex == 14){
+     $("#introWrap").hide();
+    } else if(introWrapBurIndex == 25){
+     clearInterval(introWrapBur);
+     $("#wrap").show();
+    }
+   },50);
+   }, 1000);
+ }catch(err){
+  $("#introWrap").hide();
+  $("#wrap").show();
+ }
+
+
+
+
+출처: http://iruplace.tistory.com/108 [이루플레이스]
+
+</body>
+</html>

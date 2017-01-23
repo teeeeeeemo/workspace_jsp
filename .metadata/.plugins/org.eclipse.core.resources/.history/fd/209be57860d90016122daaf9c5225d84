@@ -1,0 +1,20 @@
+package jdbc;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+
+public class DBCPInit extends HttpServlet {
+	
+	public void init() throws ServletException{
+		loadJDBCDriver();
+		initConnectionPool();
+	}
+	
+	private void loadJDBCDriver() {
+		
+	}
+	
+	private void initConnectionPool() {
+		
+	}
+}

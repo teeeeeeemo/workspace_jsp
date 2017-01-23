@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+body {
+  background-image:url('file:///Users/Lucia/Documents/kittyback.jpg');
+  background-repeat:no-repeat }
+</style>
+<!-- <body background="file:///Users/Lucia/Downloads/%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AE%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%A1/hellokitty.jpg">
+ -->
+왜 안나와 배
+</body>
+</html>

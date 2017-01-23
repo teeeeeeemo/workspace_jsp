@@ -1,0 +1,24 @@
+package member.service;
+
+import java.sql.Connection;
+
+import jdbc.connection.ConnectionProvider;
+import member.dao.MemberDao;
+import member.model.Member;
+
+public class InvalidPasswordException extends RuntimeException {
+
+	private MemberDao memberDao = new MemberDao();
+	
+	public void changePassword(String userId, String curPwd, String newPwd) {
+		Connection conn = null;
+		
+		try {
+			conn = ConnectionProvider.getConnection();
+			conn.setAutoCommit(false); //transaction start ! >D<
+			
+			Member member = memberdao.selectById(conn, userId);
+		}
+		
+	}
+}

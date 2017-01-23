@@ -1,0 +1,27 @@
+package member.command;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import member.service.ChangePasswordService;
+import mvc.command.CommandHandler;
+
+public class ChangePasswordHandler implements CommandHandler{
+	private static final String FORM_VIEW = "/WEB-INF/view/changePwdForm.jsp";
+	private ChangePasswordService changePwdSvc = new ChangePasswordService();
+	
+	@Override
+	public String process(HttpServletRequest req, HttpServletResponse res) throws Exception {
+		if(req.getMethod().equalsIgnoreCase("GET")) {
+			return processForm(req, res);
+		} else if (req.getMethod().equalsIgnoreCase("POST")) {
+			return processSubmit(req, res);
+		} else {
+			res.sendError(HttpServletResponse.SC_METHOD_NOT_ALLOWED);
+			return null;
+		}
+	}
+	
+	
+
+}

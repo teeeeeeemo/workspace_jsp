@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import = "java.sql.DriverManager" %>
+<%@ page import = "java.sql.Connection" %>
+<%@ page import = "java.sql.Statement" %>
+<%@ page import = "java.sql.ResultSet" %>
+<%@ page import = "java.sql.SQLException" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>회원 목</title>
+</head>
+<body>
+<div align="center">
+MEMBER 테이블의 내용
+<table width="100%" border="1">
+<tr>
+	<td>이름</td><td>아이디</td><td>이메일</td>
+</tr>
+<% //1. JDBC 드라이버 로딩
+	Class.forName("com.mysql.jdbc.Driver");
+
+	Connection conn = null;
+	Statement stmt = null;
+	ResultSet rs = null;
+	
+	try {
+		String jdbcDriver = "jdbc:mysql://localhost:3306/chap14?" + "useUnicode=true&characterEncoding=utf8";
+		String dbUser = "jspexam";
+		String dbPass = "jsppw";
+		
+	}
+	
+	%></table>
+
+</div>
+</body>
+</html>

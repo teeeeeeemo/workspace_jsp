@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style> 
+  .leftmenu11 a:link{color:#4B4B4B; text-decoration:none;background: url('http://img.naver.net/static/www/u/2010/0611/nmms_215646753.gif') no-repeat left; padding-left:15px; word-spacing:-2px;} 
+  .leftmenu11 a:hover{color:#006cbb; text-decoration:underline;font-weight:bold; padding-left:13px; background: url('http://icon.daumcdn.net/w/c/12/11/10192021148946703.png') no-repeat left; word-spacing:-2px;} 
+  </style> 
+<!-- <style>
+body {
+  background-image:url('file:///Users/Lucia/Downloads/%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AE%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%A1/hellokitty.jpg');
+}
+</style> -->
+<!-- <body background="file:///Users/Lucia/Downloads/%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AE%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%A1/hellokitty.jpg">
+ -->
+
+</body>
+</html>
